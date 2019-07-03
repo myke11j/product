@@ -1,13 +1,15 @@
 {
-    "name": "mukuljain/poc",
-    "description": "poc package",
-    "minimum-stability": "dev",
+    "name": "mukuljain/product",
+    "description": "Package for product poc",
+    "type": "package",
     "require": {
-        "php": ">=5.8.0"
+        "php": ">=7.0.0"
     },
+    "license": "mit",
+    "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "PoC": "src/"
+        "psr-4": {
+            "MAQE\\": "src/"
         }
     }
 }
